@@ -1,6 +1,6 @@
-# Veronica Boyce
+title: Veronica Boyce
 
-I'm currently an undergrad at MIT studying Brain and Cognitive Science. My research interests include how we humans process language and how our language use and understanding affects human interaction. 
+I'm an undergrad at MIT studying Brain and Cognitive Science. My research interests include how we humans process language and how our language use and understanding affects human interaction. 
 
 Personal: I do a fair bit of dancing (primarily square dancing and round dancing, both with [Tech Squares](squares.mit.edu)) and some puzzle hunts (I especially enjoy cryptic crosswords). In free time, I enjoy board games, baking, sewing and knitting. 
 
