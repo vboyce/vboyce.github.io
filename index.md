@@ -1,6 +1,7 @@
-I'm an undergrad at MIT studying Brain and Cognitive Science. My research interests include how we humans process language and how our language use and understanding affects human interaction. 
+## About Veronica
+I currently live in Cambridge, MA, where I'm an undergrad at MIT studying Brain and Cognitive Science. I'm especially interested in language and how language interacts with other areas of cognition. I've been doing research in MIT's [Computational Psycholinguistics Lab](http://cpl.mit.edu/) since 2017. My research interests include language processing generally and specifically how our language use affects human interaction. 
 
-Personal: I do a fair bit of dancing (primarily square dancing and round dancing, both with [Tech Squares](squares.mit.edu)) and some puzzle hunts (I especially enjoy cryptic crosswords). In free time, I enjoy board games, baking, sewing and knitting. 
+My hobbies include square dancing and round dancing (both with [Tech Squares](squares.mit.edu)), puzzle hunts, board game playing, baking, sewing and knitting.
 
 ## Presentations and Papers
 
@@ -9,4 +10,8 @@ Personal: I do a fair bit of dancing (primarily square dancing and round dancing
 
 2017
 - Veronica Boyce, Athulya Aravind, and Martin Hackl. Lexical and Syntactic Effects on Auxiliary Selection: Evidence from Child French. *Proceedings of the 41st annual Boston University Conference on Language Development*. [Paper](http://www.lingref.com/bucld/41/BUCLD41-08.pdf)
+
+## Organized Hobbies (aka Student Groups)
+
+## Personal Hobbies
 
