@@ -1,37 +1,14 @@
-## Welcome to GitHub Pages
+# Veronica Boyce
 
-You can use the [editor on GitHub](https://github.com/vboyce/vboyce.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+I'm currently an undergrad at MIT studying Brain and Cognitive Science. My research interests include how we humans process language and how our language use and understanding affects human interaction. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Personal: I do a fair bit of dancing (primarily square dancing and round dancing, both with [Tech Squares](squares.mit.edu)) and some puzzle hunts (I especially enjoy cryptic crosswords). In free time, I enjoy board games, baking, sewing and knitting. 
 
-### Markdown
+## Presentations and Papers
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+2018
+- Veronica Boyce, Titus von der Malsburg, Till Poppels, Roger Levy. Implicit gender biases in the production and comprehension of pronominal references. *CUNY 30*. [Poster at OSF](https://osf.io/hnsdb/)
 
-```markdown
-Syntax highlighted code block
+2017
+- Veronica Boyce, Athulya Aravind, and Martin Hackl. Lexical and Syntactic Effects on Auxiliary Selection: Evidence from Child French. *Proceedings of the 41st annual Boston University Conference on Language Development*. [Paper](http://www.lingref.com/bucld/41/BUCLD41-08.pdf)
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/vboyce/vboyce.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
