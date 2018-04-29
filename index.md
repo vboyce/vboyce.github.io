@@ -1,3 +1,5 @@
+---
+---
 ## About Veronica
 I currently live in Cambridge, MA, where I'm an undergrad at MIT studying Brain and Cognitive Science. I'm especially interested in language and how language interacts with other areas of cognition. I've been doing research in MIT's [Computational Psycholinguistics Lab](http://cpl.mit.edu/) since 2017. My research interests include language processing generally and specifically how our language use affects human interaction. 
 
