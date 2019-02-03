@@ -10,6 +10,9 @@ My hobbies include square dancing and round dancing (both with [Tech Squares](sq
 
 ## Presentations and Papers
 
+2019
+- Veronica Boyce, Titus von der Malsburg, Till Poppels, Roger Levy. Female gender is consistently under-expressed in pronoun production and under-inferred in comprehension. *LSA 2019 Annual Meeting*. [Poster](https://osf.io/r9mys/)
+
 2018
 - Veronica Boyce, Titus von der Malsburg, Till Poppels, Roger Levy. Implicit gender biases in the production and comprehension of pronominal references. *CUNY 30*. [Poster](https://osf.io/hnsdb/)
 

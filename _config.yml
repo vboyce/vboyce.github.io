@@ -1,2 +1,13 @@
 theme: jekyll-theme-cayman
 title: Veronica Boyce
+
+defaults:
+  -
+    scope:
+      path: "_slides" 
+    values:
+      layout: "iframe"
+
+collections:
+  slides:
+    output: true
