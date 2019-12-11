@@ -1,14 +1,9 @@
 ---
 ---
 
-This website is currently under development. Apologies for any problems/missing content.
+[My CV](assets/Boyce_CV.pdf) as of late 2019
 
-## About Veronica
-I live in Cambridge, MA, where I work as a research associate in the [Computational Psycholinguistics Lab](http://cpl.mit.edu/) at MIT. I study language, with a particular interest in pragmatic language use and how language interacts with social biases. 
-
-My hobbies include square dancing and round dancing (both with [Tech Squares](squares.mit.edu)), puzzle hunts, board game playing, baking, sewing and knitting.
-
-## Recent Presentations and Papers
+## Presentations and Papers
 
 2019
 - Veronica Boyce, Richard Futrell, Roger Levy. Maze Made Easy: Better and easier measurement of incremental processing difficulty. *Journal of Memory and Language*. [Pre-print](https://psyarxiv.com/b7nqd/)
@@ -18,4 +13,11 @@ My hobbies include square dancing and round dancing (both with [Tech Squares](sq
 - Veronica Boyce, Richard Futrell, Roger Levy. Maze Made Easy: Better and easier measurement of incremental processing difficulty. *CUNY 32*. [Poster](https://osf.io/mj5cd/)
 
 - Veronica Boyce, Titus von der Malsburg, Till Poppels, Roger Levy. Female gender is consistently under-expressed in pronoun production and under-inferred in comprehension. *LSA 2019 Annual Meeting*. [Poster](https://osf.io/r9mys/)
+
+2018
+- Veronica Boyce, Titus von der Malsburg, Till Poppels, Roger Levy. Implicit gender biases in the production and comprehension of pronominal references. *CUNY 31*. [Poster](https://osf.io/hnsdb/)
+
+2017
+- Veronica Boyce, Athulya Aravind, and Martin Hackl. Lexical and Syntactic Effects on Auxiliary Selection: Evidence from Child French. *Proceedings of the 41st annual Boston University Conference on Language Development*. [Paper](http://www.lingref.com/bucld/41/BUCLD41-08.pdf)
+
 
