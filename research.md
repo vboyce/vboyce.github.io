@@ -5,9 +5,12 @@
 
 ## Presentations and Papers
 
-2019
+2020
 - Veronica Boyce, Richard Futrell, Roger Levy. Maze Made Easy: Better and easier measurement of incremental processing difficulty. *Journal of Memory and Language*. [Pre-print](https://psyarxiv.com/b7nqd/)
 
+- Veronica Boyce, Roger Levy.  A-maze of Natural Stories: Texts are comprehensible using the Maze task. *Architectures and Mechanisms for Language Processing Conference.* Talk. [Slides](https://github.com/vboyce/amaze-natural-stories/blob/master/amlap_2020_talk.pdf) [Recorded talk (first ~30 minutes)](https://www.twitch.tv/videos/731930258)
+
+2019
 - Veronica Boyce, Titus von der Malsburg, Till Poppels, Roger Levy. Remember 'him', forget 'her': Gender bias in the comprehension of pronominal referents. *CUNY 32*. [Slides](https://osf.io/utxbd/)
 
 - Veronica Boyce, Richard Futrell, Roger Levy. Maze Made Easy: Better and easier measurement of incremental processing difficulty. *CUNY 32*. [Poster](https://osf.io/mj5cd/)
