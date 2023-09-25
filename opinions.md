@@ -1,6 +1,6 @@
 ---
 ---
-## Opinions
+## Eclectic pieces of writing
 
 <ul>
   {% for post in site.posts %}
