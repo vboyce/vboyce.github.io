@@ -19,8 +19,9 @@ This is a selection of publication and presentations grouped by research topic.
 
 ## Pragmatic communication and convention formation
 
-- Veronica Boyce, Robert Hawkins, Noah Goodman, Michael Frank. Thick feedback facilitates referential coordi-
-nation in larger groups. CAMP 5. 2023. [Slides](https://docs.google.com/presentation/d/1_e1cebDDuoJ_UJSlEkTziPLBDHjrn7tXGYJvQn0b6K8/edit?usp=sharing)
+- Veronica Boyce, Robert Hawkins, Noah Goodman, Michael Frank. Interaction Structure Constrains the Emergence of Conventions in Group Communication. 2024. [Pre-print](https://osf.io/preprints/psyarxiv/a3wfy)
+
+- Veronica Boyce, Robert Hawkins, Noah Goodman, Michael Frank. Thick feedback facilitates referential coordination in larger groups. CAMP 5. 2023. [Slides](https://docs.google.com/presentation/d/1_e1cebDDuoJ_UJSlEkTziPLBDHjrn7tXGYJvQn0b6K8/edit?usp=sharing)
 
 - Veronica Boyce, Michael Frank. Communicative reduction in referring expressions within a multi-player
 negotiation game. CogSci. 2023. [Paper](https://escholarship.org/uc/item/8dq8c2s6) [Poster](https://github.com/vboyce/AA-flowers/blob/main/write-ups/cogsci23_poster/document.pdf)
@@ -35,10 +36,11 @@ Pragmantic Communication in Humans and Machines workshop. NeurIPS. 2021. [Paper]
 ## Replication theory & meta-analysis
 
 - Veronica Boyce, Maya Mathur, Michael Frank. Eleven years of student replication projects provide evidence
-on the correlates of replicability in psychology. 2023. [Pre-print](https://psyarxiv.com/dpyn6/)
+on the correlates of replicability in psychology. 2023. Royal Society Open Science. [PDF](https://royalsocietypublishing.org/doi/pdf/10.1098/rsos.231240)
 
-- Aaron Chuey, Veronica Boyce, Anjie Cao, Michael Frank. Conducting developmental research online v. in-
-person: A meta-analysis. 2022. [Pre-print](https://psyarxiv.com/qc6fw/)
+-  Veronica Boyce, Ben Prystawski, ... , and Michael Frank. Estimating the replicability of psychology experiments after an initial failure to replicate. 2024. [Pre-print](osf.io/preprints/psyarxiv/an3yb)
+
+- Aaron Chuey, Veronica Boyce, Anjie Cao, Michael Frank. Conducting developmental research online v. in-person: A meta-analysis. 2024. Open Mind. [Pre-print](https://psyarxiv.com/qc6fw/)
 
 ## Maze: method for sentence processing
 
