@@ -7,7 +7,7 @@ nav_order: 4
 horizontal: false
 ---
 
-I live in the Bay Area, CA where I'm a graduate student in Psychology at Stanford University in the [Language and Cognition Lab](https://langcog.stanford.edu/). I'm a cognitive scientist and I mostly study language, with a particular interest in pragmatic language use, how language interacts with social biases, and convention formation. I also am interested in psycholinguistics methods and replicability and meta-science. 
+I live in the Bay Area, CA where I'm a graduate student in Psychology at Stanford University in the [Language and Cognition Lab](https://langcog.stanford.edu/),  working with Mike Frank. I'm a cognitive scientist and I study language, with a particular interest in pragmatic language use, the role of context in language processing, and convention formation. I also am interested in psycholinguistics methods and replicability and meta-science. 
 
 Previously I lived in Cambridge, MA where I recieved an SB in Brain and Cognitive Sciences from MIT in 2019. During undergrad and the year after undergrad, I worked in the [Computational Psycholinguistics Lab](http://cpl.mit.edu/) with Roger Levy.
 
