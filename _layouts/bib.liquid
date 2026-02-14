@@ -46,6 +46,7 @@
 
   <!-- Entry bib key -->
   <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
+    <div class="bib-entry" data-tags="{% if entry.tags %}{{ entry.tags | split: ', ' | join: ' ' | slugify }}{% endif %}">
     <!-- Title -->
     <div class="title">{{ entry.title }}</div>
     <!-- Author -->
@@ -248,6 +249,14 @@
         <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
       {% endif %}
     </div>
+    {% if entry.tags %}
+  <div class="tags">
+    {% assign tag_list = entry.tags | split: ", " %}
+    {% for tag in tag_list %}
+      <span class="tag tag-{{ tag | slugify }}">{{ tag }}</span>
+    {% endfor %}
+  </div>
+{% endif %}
     {% if site.enable_publication_badges %}
       {% assign entry_has_altmetric_badge = false %}
       {% if entry.altmetric and entry.altmetric != 'false' %}
@@ -362,5 +371,6 @@
         <div style="text-align: center;">{% include video.liquid path=entry.video class="img-fluid rounded z-depth-1" controls=true %}</div>
       </div>
     {% endif %}
+    </div>
   </div>
 </div>

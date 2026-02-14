@@ -1,0 +1,140 @@
+% LaTeX resume using res.cls
+\documentclass[11pt]{article} 
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}
+\usepackage{hyperref}
+\usepackage[letterpaper,  margin=1in]{geometry} 
+%\usepackage{fancyhdr}
+	  % uses new century schoolbook postscript font 
+\newcommand{\resumewidth}{6.5in}
+\parskip=0pt
+\usepackage{hanging}
+\usepackage[backend=biber, maxbibnames=99, style=authoryear, doi=false,  url=false, sorting=ydnt, isbn=false, giveninits=true, dashed=false,  date=year]{biblatex}
+\DeclareNameAlias{sortname}{given-family}
+\renewbibmacro{in:}{}
+\addbibresource{boyce_pubs.bib}
+\addbibresource{boyce_posters.bib}
+\DeclareFieldInputHandler{extradate}{\def\NewValue{}}
+
+\usepackage{xstring}
+\newcommand*{\boldname}[3]{%
+	\def\lastname{#1}%
+	\def\firstname{#2}%
+	\def\firstinit{#3}}
+\boldname{Boyce}{Veronica}{V.}
+% Patch new definitions
+\renewcommand{\mkbibnamegiven}[1]{%
+	\ifboolexpr{ ( test {\ifdefequal{\firstname}{\namepartgiven}} or test {\ifdefequal{\firstinit}{\namepartgiven}} ) and test {\ifdefequal{\lastname}{\namepartfamily}} }
+	{\mkbibbold{#1}}{#1}%
+}
+
+\renewcommand{\mkbibnamefamily}[1]{%
+	\ifboolexpr{ ( test {\ifdefequal{\firstname}{\namepartgiven}} or test {\ifdefequal{\firstinit}{\namepartgiven}} ) and test {\ifdefequal{\lastname}{\namepartfamily}} }
+	{\mkbibbold{#1}}{#1}%
+}
+\DeclareNameAlias{sortname}{given-family}
+\begin{document}
+\nocite{*}
+
+
+
+
+
+
+
+
+%\noindent Veronica Boyce, applying to Stanford Psychology
+%
+ \moveleft.5\hoffset\centerline{\large\bf \LARGE{Veronica Boyce}}
+ \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}
+ \moveleft.5\hoffset\centerline{vboyce@mit.edu or 650-933-0841}
+
+\section*{\large{EDUCATION}}
+\nointerlineskip
+\moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}
+{\sl \textbf{Stanford University}}  \hfill \textbf{Stanford, CA}\\
+{\sl Doctor of Philosophy in Psychology} \hfill September 2025\\
+Dissertation: \textit{Constraints on the emergence and interpretability of linguistic conventions}\\
+ {\sl \textbf{Massachusetts Institute of Technology}}  \hfill \textbf{Cambridge, MA}\\
+{\sl Bachelor of Science in Brain \& Cognitive Science} \hfill June 2019
+
+ \section*{\large{EMPLOYMENT}}\nointerlineskip
+  \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}
+    {\sl \textbf{MIT, Computational Psycholinguistics Lab}} \hfill          \textbf{Cambridge, MA} \\
+  {\sl Postdoctoral Fellow on NSF SPRF fellowship} \hfill Jan 2026 -- present\\
+    {\sl \textbf{Stanford University, Language and Cognition Lab}} \hfill          \textbf{Stanford, CA} \\
+  {\sl Postdoctoral Researcher} \hfill Sep 2025 -- Jan 2026\\
+  {\sl \textbf{MIT, Computational Psycholinguistics Lab}} \hfill          \textbf{Cambridge, MA} \\
+  {\sl Research Support Associate} \hfill June 2019 -- July 2020
+      
+
+
+ \section*{\large{PUBLICATIONS}} \nointerlineskip
+
+\moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}
+
+\printbibliography[heading=none, type=article]
+
+
+\section*{\large{CONFERENCE PAPERS}} \nointerlineskip
+\moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}
+\printbibliography[heading=none, type=inproceedings]
+
+\section*{\large{CONFERENCE PRESENTATIONS}} \nointerlineskip
+\moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}
+
+\printbibliography[heading=none, type=unpublished]
+
+
+\section*{\large{AWARDS}}\nointerlineskip
+\moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}
+Open Science Innovator Prize, Stanford CORES \hfill 2025\\
+ 
+\section*{\large{TEACHING}}\nointerlineskip
+\moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}
+\noindent{\sl \textbf{Stanford, Department of Psychology}} \hfill          \textbf{Stanford, CA} \\
+\noindent{\sl TA for PSYCH 125: Research Methods in Psychology} \hfill Jan 2024 -- March 2024\\
+{\sl TA for PSYCH 251: Experimental Methods} \hfill Sep 2022 -- Dec 2022, Sep 2023 -- Dec 2023 \\
+{\sl TA for PSYCH 45: Introduction to Learning and Memory} \hfill April 2023 -- June 2023 \\
+{\sl TA for PSYCH 220B: Probabilistic Models of Cognition: Language} \hfill Sep 2021 -- Dec 2021 \\
+{\sl \textbf{MIT, Department of Brain \& Cognitive Science}} \hfill          \textbf{Cambridge, MA} \\
+{\sl TA for Computational Psycholinguistics} \hfill February 2019 -- May 2019
+
+\section*{\large{MENTORING}}\nointerlineskip
+\moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}
+Fiona Feng (Queens College undergrad) \hfill 2025-2026\\
+Ryder Fried (Stanford undergrad) \hfill 2025 \\
+Benji Fernandez (Stanford undergrad) \hfill 2025\\
+Spurti Nimbali (Stanford undergrad) \hfill 2025\\
+Zihan Wang (Stanford undergrad) \hfill 2025 \\
+Yannick Mofor (Stanford undergrad) \hfill 2024 \\
+Rebecca Pizzitola (Stanford undergrad) \hfill 2024 \\
+Ilaria Chen (Stanford undergrad) \hfill 2023 \\
+Malia Perez (Stanford undergrad) \hfill 2023\\
+Brittany Linus (Stanford undergrad) \hfill 2022\\ 
+Chelsea Ajunwa (MIT undergrad) \hfill 2020\\
+Arun Wongprommoon (MIT undergrad) \hfill 2019
+
+\section*{\large{REVIEWING}}\nointerlineskip
+\moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}
+\noindent\textit{Journals:} Psychological Science (2025), Perspectives on Psychological Science (2025), Open Mind (2025), Language, Cognition, and Neuroscience (2024), Nature Human Behavior (2024), Glossa Psycholinguistics (2021-2023), Royal Society Open Science (2024), Journal of Experimental Psychology: Learning, Memory, and Cognition (2023), Journal of Memory and Language (2023), 
+
+\noindent\textit{Conferences:} CogSci (2021-2026), HSP (2026), California Meeting of Psycholinguists (2023),  Society for Computation in Linguistics (2020), Association for Computational Linguistics (2019)
+
+
+
+
+
+
+
+
+
+
+\end{document}
+
+
+
+
+
+
+
