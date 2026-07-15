@@ -1,0 +1,31 @@
+name: Check bibliography links
+
+on:
+  push:
+    branches:
+      - master
+      - main
+    paths:
+      - "_bibliography/**/*.bib"
+  pull_request:
+    branches:
+      - master
+      - main
+    paths:
+      - "_bibliography/**/*.bib"
+
+jobs:
+  check-bib-links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check for pdf/html/supp/poster/slides fields missing a URL scheme
+        run: |
+          # _layouts/bib.liquid only uses these fields as-is when they contain '://'.
+          # Otherwise it silently prepends /assets/pdf/ (or /assets/html/) and treats
+          # the value as a local file, producing a broken link on the live site.
+          if grep -nE '(pdf|html|supp|poster|slides)=\{[^h]' _bibliography/*.bib; then
+            echo "::error::Found bib fields above missing a http(s):// scheme. These render as broken relative links (e.g. '/assets/pdf/...') instead of the intended external URL."
+            exit 1
+          fi
