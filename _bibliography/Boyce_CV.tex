@@ -9,7 +9,8 @@
 \newcommand{\resumewidth}{6.5in}
 \parskip=0pt
 \usepackage{hanging}
-\usepackage[backend=biber, maxbibnames=99, style=authoryear, doi=false,  url=false, sorting=ydnt, isbn=false, giveninits=true, dashed=false,  date=year]{biblatex}
+\usepackage{needspace}
+\usepackage[backend=biber, maxbibnames=99, style=authoryear, doi=false,  url=true, sorting=ydnt, isbn=false, giveninits=true, dashed=false,  date=year]{biblatex}
 \DeclareNameAlias{sortname}{given-family}
 \renewbibmacro{in:}{}
 \addbibresource{boyce_pubs.bib}
@@ -49,6 +50,7 @@
  \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}
  \moveleft.5\hoffset\centerline{vboyce@mit.edu or 650-933-0841}
 
+\needspace{5\baselineskip}
 \section*{\large{EDUCATION}}
 \nointerlineskip
 \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}
@@ -58,6 +60,7 @@ Dissertation: \textit{Constraints on the emergence and interpretability of lingu
  {\sl \textbf{Massachusetts Institute of Technology}}  \hfill \textbf{Cambridge, MA}\\
 {\sl Bachelor of Science in Brain \& Cognitive Science} \hfill June 2019
 
+ \needspace{5\baselineskip}
  \section*{\large{EMPLOYMENT}}\nointerlineskip
   \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}
     {\sl \textbf{MIT, Computational Psycholinguistics Lab}} \hfill          \textbf{Cambridge, MA} \\
@@ -69,6 +72,7 @@ Dissertation: \textit{Constraints on the emergence and interpretability of lingu
       
 
 
+ \needspace{5\baselineskip}
  \section*{\large{PUBLICATIONS}} \nointerlineskip
 
 \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}
@@ -76,61 +80,79 @@ Dissertation: \textit{Constraints on the emergence and interpretability of lingu
 \printbibliography[heading=none, type=article, notkeyword=preprint]
 
 
+\needspace{5\baselineskip}
 \section*{\large{CONFERENCE PROCEEDINGS}} \nointerlineskip
 \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}
 \printbibliography[heading=none, type=inproceedings]
 
+\needspace{5\baselineskip}
 \section*{\large{PREPRINTS (UNDER REVIEW)}} \nointerlineskip
 \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}
 \printbibliography[heading=none, type=article, keyword=preprint]
 
+\needspace{5\baselineskip}
 \section*{\large{CONFERENCE PRESENTATIONS}} \nointerlineskip
 \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}
 
 \printbibliography[heading=none, type=unpublished]
 
+\needspace{5\baselineskip}
 \section*{\large{GRANTS \& FELLOWSHIPS}}\nointerlineskip
 \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}
 NSF SBE Postdoctoral Research Fellowship \hfill Jan 2026-Jan 2028\\
 
+\needspace{5\baselineskip}
 \section*{\large{AWARDS}}\nointerlineskip
 \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}
 Open Science Innovator Prize, \textit{Stanford Center for Open and Reproducible Science} \hfill 2025\\
 The Albert H. and Barbara R. Hastorf Prize for Teaching, \textit{Stanford Department of Psychology} \hfill 2025\\
  
+\needspace{5\baselineskip}
 \section*{\large{TEACHING}}\nointerlineskip
 \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}
 \noindent{\sl \textbf{Stanford, Department of Psychology}} \hfill          \textbf{Stanford, CA} \\
 \noindent{\sl TA for PSYCH 125: Research Methods in Psychology} \hfill Jan 2024 -- March 2024\\
-{\sl TA for PSYCH 251: Experimental Methods} \hfill Sep 2022 -- Dec 2022, Sep 2023 -- Dec 2023 \\
+\hspace*{1em}\textit{First offering of course; designed and led course replication projects with bi-weekly milestones}\\
+{\sl TA for PSYCH 251: Experimental Methods} \hfill Sep 2023 -- Dec 2023\\
+\hspace*{1em}\textit{Designed and supervised re-replication option for course project}\\
+\hspace*{1em}\textit{Led collective writing of joint paper reporting findings across projects (see Publications)}\\
+{\sl TA for PSYCH 251: Experimental Methods} \hfill Sep 2022 -- Dec 2022\\
+{\sl Guest Lecturer, PSYCH 251: Experimental Methods} \hfill 2023, 2025\\
+\hspace*{1em}\textit{Topic: meta-analysis and meta-science}\\
 {\sl TA for PSYCH 45: Introduction to Learning and Memory} \hfill April 2023 -- June 2023 \\
 {\sl TA for PSYCH 220B: Probabilistic Models of Cognition: Language} \hfill Sep 2021 -- Dec 2021 \\
 {\sl \textbf{MIT, Department of Brain \& Cognitive Science}} \hfill          \textbf{Cambridge, MA} \\
 {\sl TA for Computational Psycholinguistics} \hfill February 2019 -- May 2019
 
+\needspace{5\baselineskip}
 \section*{\large{MENTORING}}\nointerlineskip
 \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}
-Benji Fernandez (Stanford undergrad) \hfill 2025-2026\\
-Fiona Feng (Queens College undergrad) \hfill 2025-2026\\
-Ryder Fried (Stanford undergrad) \hfill 2025 \\
-Spurti Nimbali (Stanford undergrad) \hfill 2025\\
-Zihan Wang (Stanford undergrad) \hfill 2025 \\
-Yannick Mofor (Stanford undergrad) \hfill 2024 \\
+Benji Fernandez (Stanford, undergraduate honors thesis, co-advisor; thesis in progress) \hfill 2025--present \\
+\hspace*{1em}\textit{Co-author, poster at HSP and manuscript, see Conference Presentations \& Preprints}\\
+Fiona Feng (Queens College undergraduate research assistant) \hfill 2025-2026\\
+\hspace*{1em}\textit{Co-author, poster at HSP and manuscript, see Conference Presentations \& Preprints}\\
+Ryder Fried (Stanford undergraduate research assistant) \hfill 2025 \\
+\hspace*{1em}\textit{Co-author, poster at HSP and manuscript, see Conference Presentations \& Preprints}\\
+Spurti Nimbali (Stanford undergraduate research assistant) \hfill 2025\\
+Zihan Wang (Stanford undergraduate research assistant) \hfill 2025 \\
+Yannick Mofor (Stanford undergraduate research assistant) \hfill 2024 \\
+\hspace*{1em}\textit{Co-author, CogSci proceedings, see Conference Proceedings}\\
 Rebecca Pizzitola (Stanford undergrad) \hfill 2024 \\
-Ilaria Chen (Stanford undergrad) \hfill 2023 \\
-Malia Perez (Stanford undergrad) \hfill 2023\\
-Brittany Linus (Stanford undergrad) \hfill 2022\\ 
-Chelsea Ajunwa (MIT undergrad) \hfill 2020\\
-Arun Wongprommoon (MIT undergrad) \hfill 2019
+Ilaria Chen (Stanford undergraduate research assistant) \hfill 2023 \\
+\hspace*{1em}\textit{Co-author, talk at CAMP, see Conference Presentations}\\
+Malia Perez (Stanford undergraduate research assistant) \hfill 2023\\
+\hspace*{1em}\textit{Co-author, talk at CAMP, see Conference Presentations}\\
+Brittany Linus (Stanford undergraduate research assistant) \hfill 2022\\ 
+Chelsea Ajunwa (MIT undergraduate research assistant) \hfill 2020\\
+\hspace*{1em}\textit{Co-author, short talk at HSP, see Conference Presentations}\\
+Arun Wongprommoon (MIT undergraduate research assistant) \hfill 2019
 
-\section*{\large{REVIEWING}}\nointerlineskip
+\needspace{5\baselineskip}
+\section*{\large{AD HOC REVIEWING}}\nointerlineskip
 \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}
-\noindent\textit{Journals:} Replication Research (2026), Journal of Personality and Social Psychology: Attitudes and Social Cognition (2026), Infant Behavior and Development (2026), Psychological Science (2025), Perspectives on Psychological Science (2025), Open Mind (2025), Language, Cognition, and Neuroscience (2024), Nature Human Behavior (2024), Glossa Psycholinguistics (2021-2023), Royal Society Open Science (2024), Journal of Experimental Psychology: Learning, Memory, and Cognition (2023), Journal of Memory and Language (2023), 
-
-\noindent\textit{Conferences:} CogSci (2021-2026), HSP (2026), California Meeting of Psycholinguists (2023),  Society for Computation in Linguistics (2020-2026), Association for Computational Linguistics (2019)
-
-
-
+\noindent\textit{Journals:} Replication Research (2026); Journal of Personality and Social Psychology: Attitudes and Social Cognition (2026); Infant Behavior and Development; Open Mind (2025); Language, Cognition, and Neuroscience (2024); Royal Society Open Science (2024); Journal of Experimental Psychology: Learning, Memory, and Cognition (2023); Journal of Memory and Language (2023); Glossa Psycholinguistics (2021)\\
+\noindent\textit{Co-reviewed (with Michael C. Frank):} Psychological Science (2025), Perspectives on Psychological Science (2025), Nature Human Behavior (2024), Glossa Psycholinguistics (2023) \\
+\noindent\textit{Conferences:} CogSci (2021--2026), HSP (2026), California Meeting of Psycholinguists (2023), Society for Computation in Linguistics (2020--2026), Association for Computational Linguistics (2019)\\
 
 
 
