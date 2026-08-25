@@ -2,7 +2,9 @@
 \documentclass[11pt]{article} 
 %\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
 %\usepackage{newcent}
-\usepackage{hyperref}
+\usepackage{xcolor}
+\definecolor{linkblue}{RGB}{0,51,102}
+\usepackage[colorlinks=true, urlcolor=linkblue, linkcolor=black, citecolor=black]{hyperref}
 \usepackage[letterpaper,  margin=1in]{geometry} 
 %\usepackage{fancyhdr}
 	  % uses new century schoolbook postscript font 
@@ -53,7 +55,7 @@
 
 \needspace{5\baselineskip}
 \section*{\large{EDUCATION}}
-\nointerlineskip
+\nointerlineskip\vspace{3pt}
 \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}
 {\sl \textbf{Stanford University}}  \hfill \textbf{Stanford, CA}\\
 {\sl Doctor of Philosophy in Psychology} \hfill September 2025\\
@@ -62,7 +64,7 @@ Dissertation: \textit{Constraints on the emergence and interpretability of lingu
 {\sl Bachelor of Science in Brain \& Cognitive Science} \hfill June 2019
 
  \needspace{5\baselineskip}
- \section*{\large{EMPLOYMENT}}\nointerlineskip
+ \section*{\large{EMPLOYMENT}}\nointerlineskip\vspace{3pt}
   \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}
     {\sl \textbf{MIT, Computational Psycholinguistics Lab}} \hfill          \textbf{Cambridge, MA} \\
   {\sl NSF SBE Postdoctoral Research Fellow} \hfill Jan 2026 -- present\\
@@ -72,9 +74,16 @@ Dissertation: \textit{Constraints on the emergence and interpretability of lingu
   {\sl Research Support Associate} \hfill June 2019 -- July 2020
       
 
+\needspace{5\baselineskip}
+\section*{\large{AWARDS, FELLOWSHIPS, \& GRANTS}}\nointerlineskip\vspace{3pt}
+\moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}
+NSF SBE Postdoctoral Research Fellowship \hfill Jan 2026-Jan 2028\\
+Open Science Innovator Prize, \textit{Stanford Center for Open and Reproducible Science} \hfill 2025\\
+The Albert H. and Barbara R. Hastorf Prize for Teaching, \textit{Stanford Department of Psychology} \hfill 2025\\
+
 
  \needspace{5\baselineskip}
- \section*{\large{PUBLICATIONS}} \nointerlineskip
+ \section*{\large{PUBLICATIONS}} \nointerlineskip\vspace{3pt}
 
 \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}
 
@@ -82,34 +91,35 @@ Dissertation: \textit{Constraints on the emergence and interpretability of lingu
 
 
 \needspace{5\baselineskip}
-\section*{\large{CONFERENCE PROCEEDINGS}} \nointerlineskip
+\section*{\large{CONFERENCE PROCEEDINGS}} \nointerlineskip\vspace{3pt}
 \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}
 \printbibliography[heading=none, type=inproceedings]
 
 \needspace{5\baselineskip}
-\section*{\large{PREPRINTS (UNDER REVIEW)}} \nointerlineskip
+\section*{\large{PREPRINTS (UNDER REVIEW)}} \nointerlineskip\vspace{3pt}
 \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}
 \printbibliography[heading=none, type=article, keyword=preprint]
 
 \needspace{5\baselineskip}
-\section*{\large{CONFERENCE PRESENTATIONS}} \nointerlineskip
+\section*{\large{CONFERENCE PRESENTATIONS}} \nointerlineskip\vspace{3pt}
 \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}
 
 \printbibliography[heading=none, type=unpublished]
 
-\needspace{5\baselineskip}
-\section*{\large{GRANTS \& FELLOWSHIPS}}\nointerlineskip
-\moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}
-NSF SBE Postdoctoral Research Fellowship \hfill Jan 2026-Jan 2028\\
 
 \needspace{5\baselineskip}
-\section*{\large{AWARDS}}\nointerlineskip
+\section*{\large{INVITED TALKS}} \nointerlineskip\vspace{3pt}
 \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}
-Open Science Innovator Prize, \textit{Stanford Center for Open and Reproducible Science} \hfill 2025\\
-The Albert H. and Barbara R. Hastorf Prize for Teaching, \textit{Stanford Department of Psychology} \hfill 2025\\
- 
+
+Harvard LangCog Talk Series, Harvard University \hfill  Sep 2026 \\
+Goldenberg Lab, Harvard Business School \hfill Nov 2025\\
+Language and Cognitive Development Lab, UC Berkeley \hfill Oct 2025 \\
+Saxelab, MIT \hfill Feb 2023 \\ 
+QuantLang Lab, UC Irvine \hfill April 2021 \\ 
+
+
 \needspace{5\baselineskip}
-\section*{\large{TEACHING}}\nointerlineskip
+\section*{\large{TEACHING}}\nointerlineskip\vspace{3pt}
 \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}
 \noindent{\sl \textbf{Stanford, Department of Psychology}} \hfill          \textbf{Stanford, CA} \\
 \noindent{\sl TA for PSYCH 125: Research Methods in Psychology} \hfill Jan 2024 -- March 2024\\
@@ -126,9 +136,9 @@ The Albert H. and Barbara R. Hastorf Prize for Teaching, \textit{Stanford Depart
 {\sl TA for Computational Psycholinguistics} \hfill February 2019 -- May 2019
 
 \needspace{5\baselineskip}
-\section*{\large{MENTORING}}\nointerlineskip
+\section*{\large{MENTORING}}\nointerlineskip\vspace{3pt}
 \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}
-Benji Fernandez (Stanford, undergraduate honors thesis, co-advisor; thesis in progress) \hfill 2025--present \\
+Benji Fernandez (Stanford, undergraduate honors thesis in progress, co-advisor) \hfill 2025--2026 \\
 \hspace*{1em}\textit{Co-author, poster at HSP and manuscript, see Conference Presentations \& Preprints}\\
 Fiona Feng (Queens College undergraduate research assistant) \hfill 2025-2026\\
 \hspace*{1em}\textit{Co-author, poster at HSP and manuscript, see Conference Presentations \& Preprints}\\
@@ -149,16 +159,23 @@ Chelsea Ajunwa (MIT undergraduate research assistant) \hfill 2020\\
 Arun Wongprommoon (MIT undergraduate research assistant) \hfill 2019
 
 \needspace{5\baselineskip}
-\section*{\large{AD HOC REVIEWING}}\nointerlineskip
+\section*{\large{AD HOC REVIEWING}}\nointerlineskip\vspace{3pt}
 \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}
 \noindent\textit{Journals:} Replication Research (2026); Journal of Personality and Social Psychology: Attitudes and Social Cognition (2026); Infant Behavior and Development; Open Mind (2025); Language, Cognition, and Neuroscience (2024); Royal Society Open Science (2024); Journal of Experimental Psychology: Learning, Memory, and Cognition (2023); Journal of Memory and Language (2023); Glossa Psycholinguistics (2021)\\
 \noindent\textit{Co-reviewed (with Michael C. Frank):} Psychological Science (2025), Perspectives on Psychological Science (2025), Nature Human Behavior (2024), Glossa Psycholinguistics (2023) \\
 \noindent\textit{Conferences:} CogSci (2021--2026), HSP (2026), California Meeting of Psycholinguists (2023), Society for Computation in Linguistics (2020--2026), Association for Computational Linguistics (2019)\\
 
 
+\needspace{5\baselineskip}
+\section*{\large{REFERENCES}}\nointerlineskip\vspace{3pt}
+\moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}
+Dr. Roger Levy, Department of Brain and Cognitive Sciences, MIT, rplevy@mit.edu\\
+\medskip
 
+\noindent Dr. Michael C. Frank, Department of Psychology, Stanford University, mcfrank@stanford.edu\\
+\medskip
 
-
+\noindent Dr. Robert Hawkins, Department of Linguistics, Stanford University, rdhawkins@stanford.edu
 
 
 \end{document}
