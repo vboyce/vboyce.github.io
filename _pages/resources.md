@@ -13,7 +13,7 @@ Some of my research and teaching has been about building tools and infrastructur
 # Harmonized datasets:
 - [Peekbank](https://peekbank.github.io/peekbank-website/) I'm part of the team for Peekbank, an open repository of over 40 datasets of children's looking-while-listening data
 
-- [Refbank](refbank.stanford.edu) Refbank is an open repository of datasets from iterated reference games
+- [Refbank](https://refbank.stanford.edu) Refbank is an open repository of datasets from iterated reference games
 
 # Maze task:
 - [Maze documentation](https://vboyce.github.io/Maze/) I built infrastructure for automatically generating distractors for the Maze task using language models. This is somewhat out of data, but likely to be revamped for newer models in 2026. 
