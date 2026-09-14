@@ -7,13 +7,11 @@ nav_order: 5
 horizontal: false
 ---
 
-I am a postdoc in the [Computational Psycholinguistics Lab](http://cpl.mit.edu/) (CPL) at MIT working with Roger Levy. As of winter 2026, I'm visiting at Stanford and working from the [Language and Cognition Lab](https://langcog.stanford.edu/) where I completed my PhD in 2025. 
+I am a postdoc in the [Computational Psycholinguistics Lab](http://cpl.mit.edu/) (CPL) at MIT working with Roger Levy.
 
 I'm a cognitive scientist and I study language, with a particular interest in pragmatic language use, the role of context in language processing, and developmental psycholinguistics. I also am interested in psycholinguistics methods and replicability and meta-science. 
 
-Previously I lived in Cambridge, MA where I recieved an SB in Brain and Cognitive Sciences from MIT in 2019. During undergrad and the year after undergrad, I worked in the [Computational Psycholinguistics Lab](http://cpl.mit.edu/) with Roger Levy.
-
-Before that, I grew up in Mountain View, CA. 
+Previously, I was at Stanford in the [Language and Cognition Lab](https://langcog.stanford.edu/) where I completed my PhD in 2025. Prior to that, I received an SB in Brain and Cognitive Sciences from MIT in 2019. During undergrad and the year after undergrad, I worked in the [Computational Psycholinguistics Lab](http://cpl.mit.edu/) with Roger Levy. Before that, I grew up in Mountain View, CA. 
 
 ## Non-academic activities
 
