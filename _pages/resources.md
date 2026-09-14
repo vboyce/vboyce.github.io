@@ -11,14 +11,14 @@ horizontal: false
 Some of my research and teaching has been about building tools and infrastructure (and some infrastructure has been more incidental). These projects are listed here!
 
 # Harmonized datasets:
-- [Peekbank](https://peekbank.github.io/peekbank-website/) I'm part of the team for Peekbank, an open repository of over 40 datasets of children's looking-while-listening data
+- [Peekbank](https://peekbank.github.io/peekbank-website/) I'm part of the team for Peekbank, an open repository of over 40 datasets of children's looking-while-listening data. 
 
-- [Refbank](https://refbank.stanford.edu) Refbank is an open repository of datasets from iterated reference games
+- [Refbank](https://refbank.stanford.edu) Refbank is an open repository of data from iterated reference games from 20 papers. 
 
 # Maze task:
-- [Maze documentation](https://vboyce.github.io/Maze/) I built infrastructure for automatically generating distractors for the Maze task using language models. This is somewhat out of data, but likely to be revamped for newer models in 2026. 
+- [Maze documentation](https://vboyce.github.io/Maze/) I built infrastructure for automatically generating distractors for the Maze task using language models. This is somewhat out of date. A new version using huggingface models exists but has not been documented yet. 
 
-- [Maze for jsPsych](https://github.com/vboyce/jspsych-maze) undocumented plugin for running maze tasks in jsPsych. Likely will get improvements and better documentation in 2026. 
+- [Maze for jsPsych](https://github.com/vboyce/jspsych-maze) undocumented plugin for running maze tasks in jsPsych. Documentation will come later in 2026. 
 
 - Demos of Maze tasks run in jsPsych using automatically generated distractors can be found at <https://vboyce.github.io/maze-demos/>
 
