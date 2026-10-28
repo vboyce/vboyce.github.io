@@ -8,7 +8,7 @@ horizontal: false
 ---
 
 
-[My CV](../assets/Boyce_CV.pdf) as of September 2026.
+[My CV](../assets/Boyce_CV.pdf) as of October 2026.
 
 [My google scholar](https://scholar.google.com/citations?user=bJ791-QAAAAJ&hl=en) which is likely to be less accurate but more up-to-date.
 
