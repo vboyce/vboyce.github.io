@@ -50,7 +50,7 @@ I was a teaching assistant for PSYCH 251 (graduate class in research methods) fo
 
 
 ## Developmental psych site projects 
-I contributed some robustness checks to [the Many Babies 1 CDI spin-off](https://doi.org/10.1017/S0305000924000254) on the relationship between infant-directed-speech preference and vocabulary and am involved in the analysis plan and power analysis simulation for [Many Babies 6](https://osf.io/preprints/psyarxiv/fe7pj_v1) on neonatal imitation. 
+I contributed some robustness checks to [the Many Babies 1 CDI spin-off](https://doi.org/10.1017/S0305000924000254) on the relationship between infant-directed-speech preference and vocabulary and am involved in the analysis plan and power analysis simulation for [Many Babies 6](https://osf.io/preprints/psyarxiv/fe7pj_v1) on neonatal imitation (Stage 1 Registered Report accepted in principle at *Developmental Science*). 
 
 In another developmental methods side project, I worked on [a meta-analysis comparing in-person and online data collection for developmental studies](https://direct.mit.edu/opmi/article/doi/10.1162/opmi_a_00147/123215/Conducting-Developmental-Research-Online-vs-In). 
 
