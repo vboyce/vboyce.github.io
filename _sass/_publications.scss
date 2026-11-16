@@ -203,6 +203,17 @@ li:has(.bib-entry.hidden) {
             border-color: var(--global-theme-color);
           }
         }
+        // Correction / Corrected PDF buttons (from _corrections/) stand out from the others.
+        a.btn.correction-btn {
+          color: var(--global-warning-block-text);
+          background-color: var(--global-warning-block-bg);
+          border-color: var(--global-warning-block);
+
+          &:hover {
+            color: var(--global-warning-block-text);
+            border-color: var(--global-warning-block-title);
+          }
+        }
       }
 
 .tags {

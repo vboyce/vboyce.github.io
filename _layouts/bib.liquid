@@ -248,6 +248,11 @@
       {% if entry.website %}
         <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
       {% endif %}
+      {% assign correction = site.corrections | where: 'bibkey', entry.key | first %}
+      {% if correction %}
+        <a href="{{ '/corrections/' | relative_url }}#{{ entry.key }}" class="btn btn-sm z-depth-0 correction-btn" role="button">Correction</a>
+        <a href="{{ correction.corrected_version }}" class="btn btn-sm z-depth-0 correction-btn" role="button">Corrected PDF</a>
+      {% endif %}
     </div>
     {% if entry.tags %}
   <div class="tags">

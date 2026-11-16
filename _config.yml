@@ -108,6 +108,8 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  corrections: # one file per corrected paper; shown on _pages/corrections.md, not as separate pages
+    output: false
 
 announcements:
   enabled: false
