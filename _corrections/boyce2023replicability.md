@@ -2,7 +2,7 @@
 bibkey: boyce2023replicability # must match a key in _bibliography/boyce_pubs.bib
 title: "Eleven years of student replication projects provide evidence on the correlates of replicability in psychology (Royal Society Open Science, 2023)"
 date: 2026-11-16 # date the correction was posted
-corrected_version: https://github.com/vboyce/251-254-MA/blob/0fdf5187dac99b6ec5e044090c2400a27c23f283/paper/manuscript-w-supplement.pdf
+corrected_version: https://osf.io/preprints/psyarxiv/dpyn6 # version-less URL: resolves to the latest version (v2, 2026-11-17, corrected)
 ---
 
 The audit turned up errors in the code that computed the statistical replication measures (prediction interval and *p*-original), and some claims in the text that the corrected results do not support. The primary measure, the subjective replication score (49% average), and the model using all 176 pairs are unchanged. With the corrected code, many more replications are statistically consistent with their originals, and the predictors of the subjective score are less certain than the published paper says.

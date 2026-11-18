@@ -2,7 +2,7 @@
 bibkey: boyce2024mpt # must match a key in _bibliography/boyce_pubs.bib
 title: "Interaction structure constrains the emergence of conventions in group communication (PNAS, 2024)"
 date: 2026-11-16 # date the correction was posted
-corrected_version: https://github.com/vboyce/multiparty-tangrams/blob/78ef5903a0716d717bf5a1bc19b253298a783e82/write-ups/manuscript/multiparty-tangrams-w-supplement.pdf
+corrected_version: https://osf.io/preprints/psyarxiv/a3wfy # version-less URL: resolves to the latest version (v2, 2026-11-17, corrected)
 ---
 
 The audit turned up two errors in the data processing. After the fixes, most results are unchanged in direction, and one claim from the mega-analysis is no longer supported.

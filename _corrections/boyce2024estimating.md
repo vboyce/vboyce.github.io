@@ -2,7 +2,7 @@
 bibkey: boyce2024estimating # must match a key in _bibliography/boyce_pubs.bib
 title: "Estimating the replicability of psychology experiments after an initial failure to replicate (Collabra: Psychology, 2024)"
 date: 2026-11-16 # date the correction was posted
-corrected_version: https://github.com/langcog/251-rescue-projects/blob/ffde181b644cb1b6b872bc87e69959235456288a/manuscript/manuscript.pdf
+corrected_version: https://osf.io/preprints/psyarxiv/an3yb # version-less URL: resolves to the latest version (v2, 2026-11-17, corrected)
 ---
 
 The audit turned up errors in the code that computed effect sizes and their uncertainty, and an error in the student analysis code for both replications of one study (Ngo et al., 2019). The main result, that 5 of 17 rescue projects (29%) mostly or fully replicated, is unchanged, as are the correlations with predictors (except for one row; see below). With the corrected code, most original effects are statistically consistent with their replications, and the confidence intervals in Figure 1 are wider.
