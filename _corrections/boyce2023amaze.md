@@ -2,7 +2,7 @@
 bibkey: boyce2023amaze # must match a key in _bibliography/boyce_pubs.bib
 title: "A-maze of Natural Stories: Comprehension and surprisal in the Maze task (Glossa Psycholinguistics, 2023)"
 date: 2026-11-16 # date the correction was posted
-corrected_version: https://github.com/vboyce/natural-stories-maze/blob/5ec96b6d6f582e00de1d105029f79adb34b38084/Papers/Paper/manuscript_corrected.pdf # TODO: switch to https://osf.io/preprints/psyarxiv/8xkrf once v2 (corrected) clears moderation; until then that URL resolves to the uncorrected v1
+corrected_version: https://osf.io/preprints/psyarxiv/8xkrf # version-less URL: resolves to the latest version (v3, 2026-11-18, corrected)
 ---
 
 The audit turned up errors in the analysis code and some claims in the text that the data do not support. The main Maze results are unchanged: comprehension of long passages is feasible, Maze RTs are linearly related to surprisal, and Maze effects are well localized with little spillover. Several comparisons between Maze and SPR are weaker than the published paper says. 
